@@ -1,0 +1,135 @@
+/* Blog */
+
+.shao_blog {
+    padding-bottom: 0;
+    margin-bottom: 1em;
+}
+
+.shao_blog_list .shao_blog {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.shao_blog_list .shao_blog:last-child {
+    border-bottom: 0;
+}
+
+.shao_blog .thumbnail-top img,
+.shao_blog img.thumbnail-top {
+    width: 100%;
+    margin-bottom: .75em;
+}
+
+.shao_blog .thumbnail-left img,
+.shao_blog img.thumbnail-left {
+    float: left;
+    margin: .25em .5em 0 0;
+}
+
+.shao_blog .thumbnail-right img,
+.shao_blog img.thumbnail-right {
+    float: right;
+    margin: .25em 0 0 .5em;
+}
+
+.shao_blog img.thumbnail-left,
+.shao_blog img.thumbnail-right {
+    max-width: 35%;
+}
+
+.shao_blog .thumbnail-bottom img,
+.shao_blog img.thumbnail-bottom {
+    width: 100%;
+    margin-top: .75em;
+}
+
+.shao_blog .content {
+    clear: none;
+}
+
+.shao_blog .title {
+    font-size: 1.75em;
+    font-weight: bold;
+    margin-bottom: .4em;
+}
+
+.shao_blog .about-post {
+    font-style: italic;
+    margin-bottom: .75em;
+}
+
+.shao_blog_post .thumbnail-left,
+.shao_blog_post .thumbnail-right {
+    max-width: 25%;
+}
+
+
+/*.page-home .shao_blog_list .shao_blog:last-child {*/
+/*margin-bottom: 1em;*/
+/*border-bottom: 0;*/
+/*}*/
+
+.shao_blog .categories,
+.shao_blog .tags {
+    display: inline-block;
+    font-weight: bold;
+    color: #777;
+}
+
+.shao_blog .categories + .tags {
+    margin-left: .5em;
+}
+
+.shao_blog .categories a,
+.shao_blog .tags a {
+    font-weight: normal;
+}
+
+.shao_blog .shao_blog_nb_comments.nb-zero {
+    color: #888888;
+}
+
+.shao_blog .secondary_information {
+    font-size: .8em;
+}
+
+.shao_blog .secondary_information .panel {
+    padding: 0 0 1em 0;
+    margin: 0;
+    line-height: 1.4em;
+    background: transparent;
+    border: 0;
+}
+
+@media only screen and (min-width: 48em) {
+
+    .shao_blog .secondary_information .first ~ .columns {
+        padding-left: 0;
+    }
+
+    .shao_blog .secondary_information .panel {
+        padding: 0 0 1em 0;
+        margin-bottom: 0;
+    }
+
+    .shao_blog .secondary_information .second .panel {
+        text-align: center;
+    }
+}
+
+.shao_blog .comments {
+    padding-top: 1.25em;
+    margin-top: 0em;
+    border-top: 1px solid #e4e4e4;
+}
+
+.shao_blog .comments .comment_form_title {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    line-height: 1.2125em;
+    font-size: 1.4em;
+}
